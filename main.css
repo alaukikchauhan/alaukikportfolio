@@ -1,0 +1,157 @@
+body {
+  margin: auto;
+}
+
+#typed-text {
+  display: inline;
+  border-right: 2px solid #212529; /* Adjust the color and thickness as needed */
+  padding-right: 5px; /* Adjust padding for better visual */
+  animation: typing 10s steps(1, end), blink-caret 0.5s step-end infinite;
+}
+
+.home-img {
+  background: url("./images/background.jpg") no-repeat;
+  background-size: cover;
+}
+
+.head-font {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.nav-font {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.home-pad {
+  padding: 16% 0;
+}
+
+.about-page 
+
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card img {
+    width: 200px; /* Adjust the image width as needed */
+    height: auto;
+    object-fit: cover;
+  }
+
+  .card-body {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.professional-info {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.company-detail {
+  border-left: 2px solid #0d6efd;
+  padding-left: 2%;
+}
+
+.box-shadow-projects {
+  padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #0d6efd;
+    color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-card {
+  margin-top: 2%;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0 !important;
+}
+
+.project-card .card-link {
+  color: #212529;
+}
+
+.project-card .card-link:hover {
+  color: #4c5258;
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.06), 0 14px 17px 0 rgba(0, 0, 0, 0.2);
+  animation:ease-in 2s;
+}
+
+.contact-page {
+  padding: 9% 0;
+}
+
+#contact {
+  background-color: rgb(236, 236, 236);
+}
+
+.contact-info {
+  font-size: 18px;
+}
+
+.contact-me  p{
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.box-shadow-dark {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: rgb(61, 61, 61);
+  color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.06), 0 2px 5px 0 rgba(255, 255, 255, 0.2);
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #212529; }
+}
+
+script {
+  margin-bottom: 0 !important;
+}
+
+/* RESPONSIVE SECTION */
+
+@media only screen and (min-width : 375px) and (max-width : 768px) {
+
+  .container {
+    width: 100% !important;
+  }
+
+  .p-5 {
+    padding: 1% !important;
+  }
+
+  .about-info {
+    font-size: 14px;
+  }
+
+  .home-pad {
+    padding-top: 25%;
+  }
+}
