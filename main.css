@@ -79,6 +79,7 @@ body {
   margin-top: 2%;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   border-radius: 0 !important;
+  height: 220px;
 }
 
 .project-card .card-link {
@@ -153,5 +154,13 @@ script {
 
   .home-pad {
     padding-top: 25%;
+  }
+
+  .project-card {
+    height: auto;
+  }
+
+  .projects-box .col {
+    flex: none !important;
   }
 }
